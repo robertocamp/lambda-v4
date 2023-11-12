@@ -14,6 +14,11 @@ https://github.com/aws-samples/sessions-with-aws-sam/tree/master/go-al2
 
 ## links
 
-- [AWS SDK:](https://github.com/aws/aws-sdk-go)
-- https://docs.aws.amazon.com/lambda/latest/dg/lambda-golang.html
+- [AWS SDK](https://github.com/aws/aws-sdk-go)
+- [implementation of the Lambda programming model for Go](https://github.com/aws/aws-lambda-go/tree/main/lambda)
+  + *This package is used by AWS Lambda to invoke your handler*
+- [context object helpers](https://github.com/aws/aws-lambda-go/tree/main/lambdacontext)
+- [event source integration](https://github.com/aws/aws-lambda-go/tree/main/events)
+
+https://docs.aws.amazon.com/lambda/latest/dg/lambda-golang.html
 - aws-lambda-go https://github.com/aws/aws-lambda-go
